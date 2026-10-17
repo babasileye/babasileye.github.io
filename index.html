@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Sileye Ba | Senior ML Scientist & Adjunct Professor</title>
+  
+  <meta name="description" content="Personal academic and professional portfolio of Dr. Sileye Ba, Senior Machine Learning Scientist at L'Oréal Research & Innovation and Adjunct Professor at NEOMA Business School.">
+  <meta name="keywords" content="Sileye Ba, Machine Learning, Computer Vision, Deep Learning, L'Oréal, Generative AI, NEOMA, EPFL, INRIA, IDIAP">
+  <meta name="author" content="Dr. Sileye Ba">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dr. Sileye Ba | Senior ML Scientist & Adjunct Professor">
+  <meta property="og:description" content="Senior Machine Learning Scientist & Tech Lead at L'Oréal Research & Innovation | Adjunct Professor at NEOMA Business School.">
+  <meta property="og:image" content="profile_photo.jpeg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================================================================
+       NAVBAR
+       =================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand">
+        <img src="profile_photo.jpeg" alt="Dr. Sileye Ba" class="brand-avatar">
+        <span>Dr. Sileye <span class="gold-text">BA</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#supervision">Supervision</a></li>
+          <li><a href="#talks">Talks</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Dark/Light Mode">
+          <!-- Sun Icon -->
+          <svg id="sunIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon -->
+          <svg id="moonIcon" style="display:none;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================================================================
+       HERO & BANNER SHOWCASE
+       =================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      
+      <!-- Hero Profile Card -->
+      <div class="hero-profile-card">
+        <div class="profile-avatar-wrapper">
+          <img src="profile_photo.jpeg" alt="Dr. Sileye Ba Portrait" class="profile-avatar">
+        </div>
+
+        <div class="hero-info">
+          <h1>Dr. Sileye <span class="gold-text">Ba</span></h1>
+          <p class="hero-roles">
+            Senior Machine Learning Scientist & Tech Lead at <span class="hero-affiliation">L'Oréal Research & Innovation</span>
+            <br>
+            Part-time Adjunct Professor at <span class="hero-affiliation">NEOMA Business School Paris</span>
+          </p>
+
+          <div class="hero-badges-row">
+            <span class="topic-tag">Computer Vision</span>
+            <span class="topic-tag">Deep Learning</span>
+            <span class="topic-tag">Generative AI</span>
+            <span class="topic-tag">3D Face & Hair Modelling</span>
+            <span class="topic-tag">Variational Bayesian Models</span>
+            <span class="topic-tag">Multimodal AI</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#publications" class="btn btn-primary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              <span>View Publications (52)</span>
+            </a>
+            <a href="#experience" class="btn btn-secondary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+              <span>Career Journey</span>
+            </a>
+
+            <div class="social-links">
+              <!-- Google Scholar -->
+              <a href="https://scholar.google.com/citations?user=JE-Yq84AAAAJ&hl=fr" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Google Scholar">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/>
+                </svg>
+              </a>
+              <!-- LinkedIn -->
+              <a href="https://fr.linkedin.com/in/sileyeba" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn Profile">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </a>
+              <!-- GitHub -->
+              <a href="https://github.com/babasileye" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub Repositories">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </a>
+              <!-- Email Copy -->
+              <button onclick="copyEmail('sileye.ba@loreal.com')" class="social-icon-btn" title="Copy Email: sileye.ba@loreal.com">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Metrics Strip -->
+      <div class="metrics-strip">
+        <div class="metric-card">
+          <div class="metric-number">52</div>
+          <div class="metric-label">Publications (TPAMI, TIP, ECCV)</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-number">15+</div>
+          <div class="metric-label">Years AI & CV Experience</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-number">12+</div>
+          <div class="metric-label">Supervised PhD & Master Theses</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-number">EPFL</div>
+          <div class="metric-label">PhD Alumnus (IDIAP Research)</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       ABOUT & RESEARCH PILLARS
+       =================================================================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Overview & Focus
+        </span>
+        <h2 class="section-title">Bridging Fundamental Machine Learning with Real-World Impact</h2>
+        <p class="section-desc">Pioneering algorithms in computer vision, deep neural networks, and generative modeling across academia and world-leading industrial research.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-bio">
+          <p>
+            I am a <strong>Senior Machine Learning Scientist & Tech Lead</strong> at <strong>L'Oréal Research & Innovation</strong> in Paris, where I lead high-impact research projects focusing on deep learning and computer vision for 3D human face and hair modeling, neural rendering, and real-time virtual try-on systems.
+          </p>
+          <p>
+            Concurrently, I serve as a <strong>Part-time Adjunct Professor</strong> at <strong>NEOMA Business School</strong> in Paris within the Master of Finance & Big Data program, teaching comprehensive machine learning curricula covering supervised learning, deep learning, reinforcement learning, and modern Generative AI.
+          </p>
+          <p>
+            With an academic foundation from <strong>EPFL (PhD, IDIAP Research Institute)</strong> and <strong>ENS Cachan (Master MVA)</strong>, my career spans key research positions at <strong>INRIA</strong>, <strong>Dailymotion</strong>, <strong>VideoStitch</strong>, and <strong>Télécom Bretagne</strong>.
+          </p>
+        </div>
+
+        <div class="research-pillars">
+          <div class="pillar-card">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            </div>
+            <h3>Generative AI & Inverse Graphics</h3>
+            <p>Differentiable rendering, neural 3D modeling for human face and hair, virtual try-on, and real-time synthesis.</p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>
+            </div>
+            <h3>Computer Vision & Video Analysis</h3>
+            <p>Multi-person tracking, head-pose estimation, gaze direction, and 360-degree panoramic video processing.</p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+            </div>
+            <h3>Multimodal Audio-Visual AI</h3>
+            <p>Joint audio-visual observation models, active speaker detection, speaker diarization, and human-robot interaction.</p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </div>
+            <h3>Variational Bayesian & Inverse Problems</h3>
+            <p>Variational data assimilation, Rao-Blackwellized particle filtering, Gaussian mixtures, and missing data interpolation.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education Cards -->
+      <div class="education-grid">
+        <div class="edu-card">
+          <div class="edu-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <div>
+            <h3 class="edu-degree">Ph.D. in Statistical Modelling Applied to Video Sequences</h3>
+            <div class="edu-institution">EPFL (Switzerland) & IDIAP Research Institute</div>
+            <p class="edu-desc">Thesis #3764: <em>Joint Head Tracking and Pose Estimation for Visual Focus of Attention Recognition</em>. Advisor: Dr. Jean-Marc Odobez.</p>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          </div>
+          <div>
+            <h3 class="edu-degree">Master of Science (MVA)</h3>
+            <div class="edu-institution">École Normale Supérieure (ENS) de Cachan, France</div>
+            <p class="edu-desc">Mathematics, Computer Vision, and Machine Learning (MVA) — the premier French master program in advanced AI and vision research.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       CAREER & EXPERIENCE TIMELINE
+       =================================================================== -->
+  <section class="section" id="experience" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          Leadership & Experience
+        </span>
+        <h2 class="section-title">Professional Journey</h2>
+        <p class="section-desc">Extensive track record advancing computer vision and machine learning across industry leaders and top research labs.</p>
+      </div>
+
+      <div class="timeline">
+        
+        <!-- L'Oreal -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Senior Machine Learning Scientist & Tech Lead</h3>
+                <div class="timeline-company">
+                  <span>L'Oréal Research & Innovation, Paris</span>
+                </div>
+              </div>
+              <span class="timeline-period">May 2020 – Present</span>
+            </div>
+            <div class="timeline-body">
+              <p>Leading machine learning and computer vision initiatives with a tech lead role on projects spanning deep learning, 3D face and hair modeling from single images, inverse graphics, and real-time learned differentiable renderers for virtual beauty try-on.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- NEOMA -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Part-time Adjunct Professor</h3>
+                <div class="timeline-company">
+                  <span>NEOMA Business School, Paris</span>
+                </div>
+              </div>
+              <span class="timeline-period">Jan 2020 – Present</span>
+            </div>
+            <div class="timeline-body">
+              <p>Teaching Master Finance & Big Data courses covering Machine Learning and Artificial Intelligence (32h): Supervised Learning, Deep Learning, Unsupervised Learning, Reinforcement Learning, and Generative AI, alongside tutorials on neural network option pricing and index tracking.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dailymotion -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Senior Machine Learning Scientist</h3>
+                <div class="timeline-company">
+                  <span>Dailymotion, Paris</span>
+                </div>
+              </div>
+              <span class="timeline-period">Nov 2017 – May 2020</span>
+            </div>
+            <div class="timeline-body">
+              <p>Engineered computer vision, machine learning, and deep neural network models for automatic large-scale video categorization, multimodal content understanding from image and text features, and visual aesthetic scoring.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Videostitch -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Senior Researcher</h3>
+                <div class="timeline-company">
+                  <span>VideoStitch, Paris</span>
+                </div>
+              </div>
+              <span class="timeline-period">Mar 2016 – Oct 2017</span>
+            </div>
+            <div class="timeline-body">
+              <p>Designed computer vision and machine learning algorithms for panoramic 360-degree cameras in virtual reality, including wide-angle stereo fisheye calibration, epipolar geometry, depth estimation, and real-time video stitching.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- INRIA -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Researcher</h3>
+                <div class="timeline-company">
+                  <span>INRIA Grenoble Rhône-Alpes (Perception Team)</span>
+                </div>
+              </div>
+              <span class="timeline-period">May 2014 – Feb 2016</span>
+            </div>
+            <div class="timeline-body">
+              <p>Conducted research on computer vision and machine learning models for human and humanoid robot interactions, multi-person tracking with variational Bayesian formulations, and audio-visual speaker diarization and tracking.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- RN3D -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">R&D Engineer</h3>
+                <div class="timeline-company">
+                  <span>RN3D Innovation Lab</span>
+                </div>
+              </div>
+              <span class="timeline-period">Mar 2013 – May 2014</span>
+            </div>
+            <div class="timeline-body">
+              <p>Researched computer vision and machine learning for human-machine interface modeling utilizing multimodal stereo sensors (Near-Infrared, RGB, Depth).</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Telecom Bretagne -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Post-Doctoral Researcher</h3>
+                <div class="timeline-company">
+                  <span>Télécom Bretagne (Signal & Communication Dept), Brest</span>
+                </div>
+              </div>
+              <span class="timeline-period">May 2009 – Feb 2013</span>
+            </div>
+            <div class="timeline-body">
+              <p>Focused on variational data assimilation and characterisation, detection, and tracking of spatio-temporal geophysical dynamics from multimodal satellite image sequences (SST, ocean chlorophyll, sea surface height).</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- IDIAP -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Post-Doctoral Researcher</h3>
+                <div class="timeline-company">
+                  <span>IDIAP Research Institute, Martigny, Switzerland</span>
+                </div>
+              </div>
+              <span class="timeline-period">Mar 2007 – Apr 2009</span>
+            </div>
+            <div class="timeline-body">
+              <p>Investigated probabilistic models for joint head tracking and pose estimation, visual focus of attention estimation, and conversational event recognition from multimodal audio-visual signals.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       PUBLICATIONS SECTION (INTERACTIVE SEARCH & FILTERS)
+       =================================================================== -->
+  <section class="section" id="publications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          Scientific Output
+        </span>
+        <h2 class="section-title">Publications & Peer-Reviewed Research</h2>
+        <p class="section-desc">
+          Published across premier journals (IEEE TPAMI, IEEE TIP, CVIU, TGRS) and international conferences (ECCV, ICCV, ICME, ICASSP, ACM Multimedia, IGARSS, ICPR).
+          Full statistics on <a href="https://scholar.google.com/citations?user=JE-Yq84AAAAJ&hl=fr" target="_blank" rel="noopener noreferrer" style="color: var(--gold-primary); text-decoration: underline;">Google Scholar</a>.
+        </p>
+      </div>
+
+      <!-- Controls: Live Search + Filters -->
+      <div class="pubs-control-bar">
+        <div class="pubs-search-row">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="pubsSearchInput" class="pubs-search-input" placeholder="Search publications by title, author, conference, journal, or year...">
+        </div>
+
+        <div class="pubs-filter-row">
+          <div class="filter-tabs">
+            <button class="filter-tab active" data-filter="All">All (52)</button>
+            <button class="filter-tab" data-filter="Journal">Journals (12)</button>
+            <button class="filter-tab" data-filter="Conference">Conferences (38)</button>
+            <button class="filter-tab" data-filter="Thesis">Theses (2)</button>
+          </div>
+          <div class="pubs-count" id="pubsCount">Showing 52 of 52 publications</div>
+        </div>
+      </div>
+
+      <!-- Rendered Container -->
+      <div class="publications-list" id="publicationsList">
+        <!-- Injected dynamically by main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       SUPERVISION SECTION
+       =================================================================== -->
+  <section class="section" id="supervision" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          Mentorship & Academic Leadership
+        </span>
+        <h2 class="section-title">Supervision & Mentoring</h2>
+        <p class="section-desc">Guiding the next generation of researchers across doctoral dissertations, master theses, and engineering projects.</p>
+      </div>
+
+      <div class="supervision-tabs">
+        <button class="sup-tab active" data-target="panel-phd">Doctoral Students (6)</button>
+        <button class="sup-tab" data-target="panel-masters">Master Interns (6)</button>
+        <button class="sup-tab" data-target="panel-projects">Student Projects (4)</button>
+      </div>
+
+      <!-- Panel: Doctoral Students -->
+      <div class="sup-grid sup-panel" id="panel-phd">
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">A. Lo</span>
+            <span class="sup-period">2018 – 2022</span>
+          </div>
+          <div class="sup-topic">Deep neural networks for Senegalese native languages translation</div>
+          <div class="sup-affil">Université Gaston Berger, Saint Louis, Sénégal • Co-supervision with Pr. Mamadou Nguer (UVS Dakar)</div>
+        </div>
+
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">Y. Ban</span>
+            <span class="sup-period">2015 – 2016</span>
+          </div>
+          <div class="sup-topic">Multi-person tracking using robot's audio-visual sensors</div>
+          <div class="sup-affil">INRIA Grenoble Rhône-Alpes • Co-supervision with Radu Horaud</div>
+        </div>
+
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">B. Massé</span>
+            <span class="sup-period">2014 – 2016</span>
+          </div>
+          <div class="sup-topic">Visual attention modelling in multi-person-robot interaction</div>
+          <div class="sup-affil">INRIA Grenoble Rhône-Alpes • Co-supervision with Radu Horaud</div>
+        </div>
+
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">V. Drouard</span>
+            <span class="sup-period">2014 – 2016</span>
+          </div>
+          <div class="sup-topic">Probabilistic model for head pose tracking</div>
+          <div class="sup-affil">INRIA Grenoble Rhône-Alpes • Co-supervision with Radu Horaud</div>
+        </div>
+
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">I. Gebru</span>
+            <span class="sup-period">2014 – 2016</span>
+          </div>
+          <div class="sup-topic">Probabilistic model for active speaker tracking</div>
+          <div class="sup-affil">INRIA Grenoble Rhône-Alpes • Co-supervision with Radu Horaud</div>
+        </div>
+
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">S. Liberge</span>
+            <span class="sup-period">2010 – 2011</span>
+          </div>
+          <div class="sup-topic">Cyclone tracks prediction using random forest</div>
+          <div class="sup-affil">Télécom Bretagne, Brest • Co-supervision with Ronan Fablet</div>
+        </div>
+      </div>
+
+      <!-- Panel: Master Interns -->
+      <div class="sup-grid sup-panel" id="panel-masters" style="display: none;">
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">S. Oury</span>
+            <span class="sup-period">2019</span>
+          </div>
+          <div class="sup-topic">Convolutional neural networks based image aesthetics scoring</div>
+          <div class="sup-affil">Imperial College London & Dailymotion</div>
+        </div>
+
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">L. Morillon</span>
+            <span class="sup-period">2016</span>
+          </div>
+          <div class="sup-topic">Wide-angle stereo fisheye calibration, epipolar geometry, and depth estimation</div>
+          <div class="sup-affil">École Normale Supérieure de Cachan & VideoStitch</div>
+        </div>
+
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">Y. Ban</span>
+            <span class="sup-period">2015</span>
+          </div>
+          <div class="sup-topic">Spatio-temporal depth estimation from time-of-flight and stereo observations</div>
+          <div class="sup-affil">Télécom Saint-Étienne & INRIA Grenoble</div>
+        </div>
+
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">V. Drouard</span>
+            <span class="sup-period">2014</span>
+          </div>
+          <div class="sup-topic">Head pose estimation using locally linear Gaussian mappings</div>
+          <div class="sup-affil">Polytech Nice Sophia & INRIA Grenoble</div>
+        </div>
+
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">A. Xompero</span>
+            <span class="sup-period">2014</span>
+          </div>
+          <div class="sup-topic">Variational Bayesian model for multi-person tracking</div>
+          <div class="sup-affil">Università di Trento & INRIA Grenoble</div>
+        </div>
+
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">A. Kpozenhoue</span>
+            <span class="sup-period">2010</span>
+          </div>
+          <div class="sup-topic">Multi-scale variational data assimilation of geophysical observations</div>
+          <div class="sup-affil">Université Paris VI & Télécom Bretagne</div>
+        </div>
+      </div>
+
+      <!-- Panel: Student Projects -->
+      <div class="sup-grid sup-panel" id="panel-projects" style="display: none;">
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">S. Sanz, A. El Yadini, P. Gueye, et al.</span>
+            <span class="sup-period">2014</span>
+          </div>
+          <div class="sup-topic">Multi-camera network management for pedestrian detection and tracking</div>
+          <div class="sup-affil">Télécom Bretagne</div>
+        </div>
+
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">C. Priscilia</span>
+            <span class="sup-period">2013</span>
+          </div>
+          <div class="sup-topic">Service-cameraman: automatic tracking with PTZ camera</div>
+          <div class="sup-affil">Télécom Bretagne</div>
+        </div>
+
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">D. Beauvais</span>
+            <span class="sup-period">2013</span>
+          </div>
+          <div class="sup-topic">Indoor localisation using video processing</div>
+          <div class="sup-affil">Télécom Bretagne</div>
+        </div>
+
+        <div class="sup-card">
+          <div class="sup-header">
+            <span class="sup-name">R. Pelich</span>
+            <span class="sup-period">2012</span>
+          </div>
+          <div class="sup-topic">Ocean circulation prediction using non-linear regression models</div>
+          <div class="sup-affil">Télécom Bretagne</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       TALKS & KEYNOTES
+       =================================================================== -->
+  <section class="section" id="talks">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+          Keynotes & Seminars
+        </span>
+        <h2 class="section-title">Invited Talks & Presentations</h2>
+        <p class="section-desc">Keynotes, tutorials, and research seminars presented at international conferences and research institutions.</p>
+      </div>
+
+      <div class="talks-grid">
+        <!-- Eurographics 2022 -->
+        <div class="talk-card">
+          <div>
+            <div class="talk-meta">
+              <span class="talk-venue">Eurographics 2022</span>
+              <span class="talk-date">26/04/2022</span>
+            </div>
+            <h3 class="talk-title">Real time virtual try on from a single example image through deep inverse graphics and learned differentiable renderers</h3>
+          </div>
+          <a href="https://www.youtube.com/watch?v=z7-VLHfktsE&ab_channel=Eurographics2022" target="_blank" rel="noopener noreferrer" class="talk-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            <span>Watch Presentation Video on YouTube</span>
+          </a>
+        </div>
+
+        <!-- IndabaX 2021 -->
+        <div class="talk-card">
+          <div>
+            <div class="talk-meta">
+              <span class="talk-venue">Indaba X Senegal 2021</span>
+              <span class="talk-date">28-29/08/2021</span>
+            </div>
+            <h3 class="talk-title">Machine learning research for cosmetic and skin care at L'Oréal</h3>
+          </div>
+          <a href="https://deeplearningindaba.com/2021/indabax/senegal/" target="_blank" rel="noopener noreferrer" class="talk-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <span>Indaba X Senegal Program</span>
+          </a>
+        </div>
+
+        <!-- IndabaX 2019 -->
+        <div class="talk-card">
+          <div>
+            <div class="talk-meta">
+              <span class="talk-venue">Indaba X Senegal 2019</span>
+              <span class="talk-date">20/04/2019</span>
+            </div>
+            <h3 class="talk-title">Probabilistic Models for Visual Feature Based Multi Person Tracking For Robotics</h3>
+          </div>
+          <a href="https://indabax-dakar.firebaseapp.com/" target="_blank" rel="noopener noreferrer" class="talk-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <span>Indaba X Dakar Event</span>
+          </a>
+        </div>
+
+        <!-- CVC Barcelona -->
+        <div class="talk-card">
+          <div>
+            <div class="talk-meta">
+              <span class="talk-venue">Computer Vision Center (CVC), Barcelona</span>
+              <span class="talk-date">19/02/2016</span>
+            </div>
+            <h3 class="talk-title">Dynamic Probabilistic Models for Person Tracking and Activity Recognition</h3>
+          </div>
+          <a href="http://www.cvc.uab.es/CVCTV/elements/Seminars/2016/2016-02-19%20Sileye%20Ba.mp4" target="_blank" rel="noopener noreferrer" class="talk-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            <span>Watch Seminar Video Recording</span>
+          </a>
+        </div>
+
+        <!-- ICCV Workshop -->
+        <div class="talk-card">
+          <div>
+            <div class="talk-meta">
+              <span class="talk-venue">ICCV Workshop (Santiago de Chile)</span>
+              <span class="talk-date">17/12/2015</span>
+            </div>
+            <h3 class="talk-title">Tracking the Active Speaker Based on a Joint Audio-Visual Observation Model</h3>
+          </div>
+          <span class="talk-link" style="color: var(--text-muted);">
+            Workshop on 3D Reconstruction and Understanding with Video & Sound
+          </span>
+        </div>
+
+        <!-- EARS Project -->
+        <div class="talk-card">
+          <div>
+            <div class="talk-meta">
+              <span class="talk-venue">EARS Project Meeting (Aldebaran, Paris)</span>
+              <span class="talk-date">26/11/2016</span>
+            </div>
+            <h3 class="talk-title">A tutorial on variational Bayesian estimation with applications to multi-person tracking and sound source separation</h3>
+          </div>
+          <a href="https://robot-ears.eu/1777-2/" target="_blank" rel="noopener noreferrer" class="talk-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <span>EARS Project Overview</span>
+          </a>
+        </div>
+
+        <!-- GDR ISIS -->
+        <div class="talk-card">
+          <div>
+            <div class="talk-meta">
+              <span class="talk-venue">GDR ISIS Meeting (Télécom ParisTech)</span>
+              <span class="talk-date">16/10/2015</span>
+            </div>
+            <h3 class="talk-title">An On-line Variational Bayesian Model for Multi-Person Tracking from Cluttered Scenes</h3>
+          </div>
+          <a href="http://www.gdr-isis.fr/index.php?page=reunion&idreunion=279" target="_blank" rel="noopener noreferrer" class="talk-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <span>GDR ISIS Meeting Archives</span>
+          </a>
+        </div>
+
+        <!-- NCCR IM2 -->
+        <div class="talk-card">
+          <div>
+            <div class="talk-meta">
+              <span class="talk-venue">NCCR IM2 Final Event (EPFL, Lausanne)</span>
+              <span class="talk-date">17/10/2013</span>
+            </div>
+            <h3 class="talk-title">From IM2 to RN3D Innovation Lab (Invited Alumni Talk)</h3>
+          </div>
+          <a href="http://www.im2.ch/final-event/webcast" target="_blank" rel="noopener noreferrer" class="talk-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <span>IM2 Event Webcast</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       TEACHING SECTION
+       =================================================================== -->
+  <section class="section" id="teaching" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          Academic Pedagogy
+        </span>
+        <h2 class="section-title">Teaching & Coursework</h2>
+        <p class="section-desc">Training engineering and business graduates in state-of-the-art machine learning, AI, and signal processing.</p>
+      </div>
+
+      <div class="teaching-grid">
+        
+        <!-- NEOMA Business School -->
+        <div class="teaching-col">
+          <div class="teaching-col-header">
+            <h3 class="teaching-institution">NEOMA Business School Paris</h3>
+            <div class="teaching-dates">2020 – 2026 • Master Finance & Big Data</div>
+          </div>
+
+          <div class="course-item">
+            <h4 class="course-title">Introduction to Machine Learning and Artificial Intelligence (32h)</h4>
+            <p class="course-details">Core lecture series covering foundational and modern AI: Supervised Learning, Deep Learning, Unsupervised Learning, Reinforcement Learning, and Generative AI.</p>
+          </div>
+
+          <div class="course-item">
+            <h4 class="course-title">Options Pricing with Neural Networks (4h tutorial)</h4>
+            <p class="course-details">Hands-on tutorial implementing neural network architectures for quantitative derivatives pricing.</p>
+          </div>
+
+          <div class="course-item">
+            <h4 class="course-title">Index Tracking with Machine Learning (4h tutorial)</h4>
+            <p class="course-details">Practical tutorial modeling benchmark portfolio index replication using machine learning regression and feature selection.</p>
+          </div>
+
+          <div class="course-item">
+            <h4 class="course-title">Option Pricing with Monte Carlo Methods (4h tutorial)</h4>
+            <p class="course-details">Numerical simulation and stochastic modeling tutorial applied to derivative valuation.</p>
+          </div>
+        </div>
+
+        <!-- Telecom Bretagne -->
+        <div class="teaching-col">
+          <div class="teaching-col-header">
+            <h3 class="teaching-institution">Télécom Bretagne</h3>
+            <div class="teaching-dates">2010 – 2012 • Signal & Image Processing</div>
+          </div>
+
+          <div class="course-item">
+            <h4 class="course-title">Inverse Problems & Video Analysis (F4B402A, 12h)</h4>
+            <p class="course-details">Lectures on variational formulations and partial differential equations (PDEs) in image processing, video motion analysis, primitive detection and tracking, and object tracking lab (TP4).</p>
+          </div>
+
+          <div class="course-item">
+            <h4 class="course-title">Fundamentals of Image Analysis & Processing (F14202A, 3h)</h4>
+            <p class="course-details">Lecture on statistical and mathematical texture analysis for computer vision.</p>
+          </div>
+
+          <div class="course-item">
+            <h4 class="course-title">Probability & Stochastic Processes</h4>
+            <p class="course-details">Tutorial classes (TD) on Probability (TC101b), Probability & Introduction to Stochastic Processes (FIP STI121), and Stochastic Processes (MTS302P / TC111B).</p>
+          </div>
+
+          <div class="course-item">
+            <h4 class="course-title">Statistical Information Processing & Wavelets</h4>
+            <p class="course-details">Practical laboratory sessions (TP) on wavelet transforms (F4B101A) and Mathematical Analysis & Optimization (MT 435P).</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       CONTACT & FOOTER
+       =================================================================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-card">
+        <span class="section-eyebrow" style="justify-content: center;">Get In Touch</span>
+        <h2>Let's Collaborate</h2>
+        <p>Interested in research collaborations, scientific talks, industrial tech advising, or academic projects in computer vision and generative AI? Feel free to reach out directly.</p>
+
+        <div class="contact-buttons-row">
+          <a href="mailto:sileye.ba@loreal.com" class="email-pill">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>sileye.ba@loreal.com</span>
+          </a>
+
+          <a href="https://fr.linkedin.com/in/sileyeba" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <span>LinkedIn Profile</span>
+          </a>
+
+          <a href="https://github.com/babasileye" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <span>GitHub Repositories</span>
+          </a>
+
+          <a href="https://scholar.google.com/citations?user=JE-Yq84AAAAJ&hl=fr" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <span>Google Scholar</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <span>&copy; <span id="currentYear">2026</span> Dr. Sileye Ba. All rights reserved.</span>
+      </div>
+      <div>
+        <a href="#hero" class="back-to-top-btn">
+          <span>Back to Top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/publications-data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
